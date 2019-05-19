@@ -1,32 +1,171 @@
-h1,
-p,
-br,
-button {
-    display:    block;
-    text-align: center;
-    margin:     0 auto;
+.main-content {
+    background-color: #272936;
 }
-button {
-    position: absolute;
-    top: 55%;
-    left: 51%;
-    transform: translate(-55%, -51%);
+
+.main-text {
+    color: #6272A4;
 }
-br {
-    position: absolute;
-    top: 51%;
-    left: 51%;
-    transform: translate(-51%, -51%);
+
+.buttons-sidebar {
+
 }
-p {
-    position: absolute;
-    top: 50%;
-    left: 51%;
-    transform: translate(-50%, -51%);
+
+.settings-button {
+
 }
-h1 {
-    position:   absolute;
-    top:        45%;
-    left:       50%;
-    transform:  translate(-45%, -50%);
+
+.setting-text {
+    color: #8BE9FC;
+}
+
+.gists-button {
+
+}
+
+.gists-text {
+    color: #74F27C;
+}
+
+.stackoverflow-button {
+    
+}
+
+.stackoverflow-text {
+    color: #F7B76B;
+}
+
+.trending-button {
+
+}
+
+.trending-text {
+    color: #EE75C5;
+}
+
+.scratchpad-button {
+
+}
+
+.scratchpad-text {
+    color: #BD92F9;
+}
+
+.playground-button {
+
+}
+
+.playground-text {
+    color: #F8F8F2;
+}
+
+.help-intro-button {
+
+}
+
+.help-intro-text {
+    color: #E6DB74;
+}
+
+.buttons-sidebar-footer {
+
+}
+
+.initab-image {
+
+}
+
+.social-media-images {
+
+}
+
+.facebook-image {
+
+}
+
+.linkedin-image {
+
+}
+
+.twitter-image {
+
+}
+
+.reddit-image {
+
+}
+
+.column-header {
+
+}
+
+.column-header-text {
+    color: #8AE8FB;
+}
+
+.horizontal-rule {
+
+}
+
+.item-side-highlight {
+    
+}
+
+.img-reddit {
+
+}
+
+.img-clock {
+
+}
+
+.img-github {
+
+}
+
+.reddit-column {
+
+}
+
+.reddit-item {
+
+}
+
+.history-column {
+
+}
+
+.history-favicon {
+
+}
+
+.history-item {
+
+}
+
+.history-time {
+
+}
+
+.history-time-text {
+    color: #929292;
+}
+
+.timestamp {
+
+}
+
+.timestamp-text {
+    color: #6272A4;
+}
+
+.github-column {
+
+}
+
+.github-item {
+
+}
+
+.highlight-text {
+    color: #F0F88C;
 }
