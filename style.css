@@ -1,13 +1,87 @@
-.main-content {
+p {
+    font-family: monospace;
+}
+
+.main-background {
     background-color: #272936;
+}
+
+.sidebar-background {
+    background-color: #44475A;
+}
+
+.root-container {
+    display: grid;
+    grid-template: repeat(25, 1fr) / 12% 21% 47% 20%;
+    height: 100%;
+    width: 100%;
+}
+
+.buttons-sidebar {
+    grid-row: 1 / 23;
+    grid-column: 1 / 2;
+}
+
+.buttons-sidebar-footer {
+    grid-row: 23 / 26;
+    grid-column: 1 / 2;
+}
+
+.reddit-title {
+    grid-row: 1 / 6;
+    grid-column: 2 / 3;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 64px 1fr;
+}
+
+.reddit-title p {
+    grid-row: 2 / 3;
+    grid-column: 2 / 4;
+}
+
+.reddit-title img {
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+    justify-self: end;
+    align-self: center;
+    height: 16px;
+    width: 16px;
+    margin-right: 0.5em;
+}
+
+.reddit-column {
+    grid-row: 4 / 26;
+    grid-column: 2 / 3;
+}
+
+.history-title {
+    grid-row: 1 / 4;
+    grid-column: 3 / 4;
+}
+
+.history-column {
+    grid-row: 4 / 21;
+    grid-column: 3 / 4;
+}
+
+.timestamp {
+    grid-row: 21 / 26;
+    grid-column: 3 / 4;
+}
+
+.github-title {
+    grid-row: 1 / 4;
+    grid-column: 4 / 5;
+}
+
+.github-column {
+    grid-row: 4 / 26;
+    grid-column: 4 / 5;
 }
 
 .main-text {
     color: #6272A4;
-}
-
-.buttons-sidebar {
-
 }
 
 .settings-button {
@@ -66,10 +140,6 @@
     color: #E6DB74;
 }
 
-.buttons-sidebar-footer {
-
-}
-
 .initab-image {
 
 }
@@ -122,15 +192,7 @@
 
 }
 
-.reddit-column {
-
-}
-
 .reddit-item {
-
-}
-
-.history-column {
 
 }
 
@@ -150,16 +212,8 @@
     color: #929292;
 }
 
-.timestamp {
-
-}
-
 .timestamp-text {
     color: #6272A4;
-}
-
-.github-column {
-
 }
 
 .github-item {
